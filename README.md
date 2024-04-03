@@ -1,6 +1,9 @@
 # Full Stack Development II Lab Test 2
 
 ## Dev Notes
+
+Deployed on: https://101296633-lab-test2-comp-3133.vercel.app/missions
+
 I was able to complete the missionlist component which asked for a rest API call and display a list with the asked fields
 ![mission list component](./screenshots/mission-list.PNG)
 
