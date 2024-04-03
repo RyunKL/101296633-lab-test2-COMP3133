@@ -1,0 +1,27 @@
+.launch-item {
+    list-style: none;
+    margin-bottom: 10px; // Add some spacing between list items
+  }
+  
+  .launch-box {
+    background-color: #f3f3f3; // Grey background color
+    padding: 10px;
+    border-radius: 5px; // Rounded corners
+    display: flex;
+    align-items: center;
+  }
+  
+  .launch-box img {
+    width: 50px; // Adjust image size as needed
+    height: 50px;
+    margin-right: 10px; // Add some spacing between image and text
+  }
+  
+  .launch-details {
+    flex-grow: 1; // Allow details text to grow and fill remaining space
+  }
+  
+  .launch-details p {
+    margin: 0; // Remove default margins
+  }
+  

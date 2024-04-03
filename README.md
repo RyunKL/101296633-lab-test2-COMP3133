@@ -1,27 +1,13 @@
-# 101296633LabTest2COMP3133
+# Full Stack Development II Lab Test 2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.0.
+## Dev Notes
+I was able to complete the missionlist component which asked for a rest API call and display a list with the asked fields
+![mission list component](./screenshots/mission-list.PNG)
 
-## Development server
+I also was able to create a filter feature which would only display launches of a specific year that the user inputs into the input field and submits
+![mission filter task within mission list](./screenshots/mission-filter.PNG)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+I was was trying to make it so each list item displayed on the mission list would carry over the flight_number field from its respective launch and I'd be able to display more fields for each object but it didn't work out.
+I did however get the routes  to work when pressing on an anchor tag to take you to the mission details page
+![missions details](./screenshots/mission-details.PNG)
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
